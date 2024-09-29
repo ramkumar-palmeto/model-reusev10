@@ -56,12 +56,4 @@ level_attributes:
       - dateid
     name_column: date_name
     time_unit: day
-  - unique_name: time-ds_empty_attr
-    label: time-ds_empty_attr
-    contains_unique_names: false
-    dataset: time-ds
-    is_hidden: true
-    is_unique_key: false
-    key_columns: []
-    name_column: ''
 type: time
