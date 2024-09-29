@@ -1,0 +1,67 @@
+unique_name: Time
+object_type: dimension
+label: Time
+hierarchies:
+  - unique_name: CY Time
+    label: CY Time
+    levels:
+      - unique_name: CY Year
+      - unique_name: CY Semester
+      - unique_name: CY Quarter
+      - unique_name: CY Month
+      - unique_name: CY Date
+level_attributes:
+  - unique_name: CY Year
+    label: CY Year
+    contains_unique_names: false
+    dataset: time-ds
+    is_unique_key: false
+    key_columns:
+      - year
+    name_column: year_name
+    time_unit: year
+  - unique_name: CY Semester
+    label: CY Semester
+    contains_unique_names: false
+    dataset: time-ds
+    is_unique_key: false
+    key_columns:
+      - half_year
+    name_column: half_year_name
+    time_unit: halfyear
+  - unique_name: CY Quarter
+    label: CY Quarter
+    contains_unique_names: false
+    dataset: time-ds
+    is_unique_key: false
+    key_columns:
+      - quarter
+    name_column: quarter_name
+    time_unit: quarter
+  - unique_name: CY Month
+    label: CY Month
+    contains_unique_names: false
+    dataset: time-ds
+    is_unique_key: false
+    key_columns:
+      - month
+    name_column: month_name
+    time_unit: month
+  - unique_name: CY Date
+    label: CY Date
+    contains_unique_names: false
+    dataset: time-ds
+    is_unique_key: false
+    key_columns:
+      - dateid
+    name_column: date_name
+    time_unit: day
+  - unique_name: time-ds_empty_attr
+    label: time-ds_empty_attr
+    contains_unique_names: false
+    dataset: time-ds
+    is_hidden: true
+    is_unique_key: false
+    key_columns: []
+    name_column: ''
+type: time

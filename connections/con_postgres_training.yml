@@ -1,0 +1,6 @@
+unique_name: con_postgres_training
+object_type: connection
+label: con_postgres_training
+as_connection: GBQTrainingDB
+database: postgres
+schema: training

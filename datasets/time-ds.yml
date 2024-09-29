@@ -1,0 +1,68 @@
+unique_name: time-ds
+object_type: dataset
+label: time
+columns:
+  - name: dateid
+    data_type: int
+  - name: pk_date
+    data_type: datetime
+  - name: date_name
+    data_type: string
+  - name: year
+    data_type: string
+  - name: year_name
+    data_type: string
+  - name: half_year
+    data_type: string
+  - name: half_year_name
+    data_type: string
+  - name: quarter
+    data_type: string
+  - name: quarter_name
+    data_type: string
+  - name: month
+    data_type: string
+  - name: month_name
+    data_type: string
+  - name: day_of_year
+    data_type: string
+  - name: day_of_year_name
+    data_type: string
+  - name: day_of_half_year
+    data_type: string
+  - name: day_of_half_year_name
+    data_type: string
+  - name: day_of_quarter
+    data_type: string
+  - name: day_of_quarter_name
+    data_type: string
+  - name: day_of_month
+    data_type: string
+  - name: day_of_month_name
+    data_type: string
+  - name: month_of_year
+    data_type: string
+  - name: month_of_year_name
+    data_type: string
+  - name: month_of_half_year
+    data_type: string
+  - name: month_of_half_year_name
+    data_type: string
+  - name: month_of_quarter
+    data_type: string
+  - name: month_of_quarter_name
+    data_type: string
+  - name: quarter_of_year
+    data_type: string
+  - name: quarter_of_year_name
+    data_type: string
+  - name: quarter_of_half_year
+    data_type: string
+  - name: quarter_of_half_year_name
+    data_type: string
+  - name: half_year_of_year
+    data_type: string
+  - name: half_year_of_year_name
+    data_type: string
+connection_id: con_postgres_training
+table: time
